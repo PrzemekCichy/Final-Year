@@ -1,0 +1,17 @@
+﻿<Controls:MetroWindow x:Class="FinalProject.About"
+                    xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinalProject"
+        mc:Ignorable="d"
+        Title="About" Height="174" Width="207"
+        GlowBrush="{DynamicResource AccentColorBrush}" ResizeMode="NoResize">
+    <Grid>
+        <TextBlock x:Name="textBlock_Przemek" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Przemek Cichy  B00662244 - 40%" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Ali" HorizontalAlignment="Left" Margin="10,31,0,0" TextWrapping="Wrap" Text="Ali Sha'ath        B00663152 - 30%" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Stuart" HorizontalAlignment="Left" Margin="10,52,0,0" TextWrapping="Wrap" Text="Stuart Leighton B00665197 - 30%" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="71,73,0,0" TextWrapping="Wrap" Text="         Group 57" VerticalAlignment="Top" Width="50" Height="49"/>
+    </Grid>
+</Controls:MetroWindow>

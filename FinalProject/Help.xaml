@@ -1,0 +1,27 @@
+﻿<Controls:MetroWindow x:Class="FinalProject.Help"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinalProject"
+        mc:Ignorable="d"
+        Title="Help" Height="425" Width="460" GlowBrush="{DynamicResource AccentColorBrush}" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="377*"/>
+            <ColumnDefinition Width="77*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="File Menu" Grid.ColumnSpan="2"></TextBlock>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="58" Width="434" Margin="10,14,0,0" Text="Clicking Open in the file menu allows user to choose a json file, contining cars data. Save as allows user to save their modifications in a new file, while save will save changes to currently opened file. The Exit function will close the program." Grid.ColumnSpan="2"></TextBlock>
+        <TextBlock Text="Edit Menu" Margin="0,77,0,169" Grid.ColumnSpan="2"></TextBlock>
+        <TextBlock TextWrapping="Wrap" Text="Add Car options adds empty car container to the database allowing the user to enter car's details. Cut copy currently visible car, and delete it from the list. Copy will temporarily copy the currently selected car which can be pasted in. Paste will paste the latest copied or cut car. Delete will delete the selected car from the database." Margin="10,92,10,220" Grid.ColumnSpan="2"/>
+        <TextBlock Text="Sorting and searching" Margin="0,176,0,121" Grid.ColumnSpan="2"></TextBlock>
+        <TextBlock TextWrapping="Wrap" Text="The Sort By function will allow the user to sort the cars by either Brand, Price, or Year. It goeas alphabetacilly, or assends. The search box allows user to search by Brand or Year. All cars that meet the search result will be shown. After searching, to see list of all of the cars, search with empty search box." Margin="10,189,12,136" Grid.ColumnSpan="2"/>
+        <TextBlock Text="Images" Margin="0,260,0,0" Grid.ColumnSpan="2"></TextBlock>
+        <TextBlock TextWrapping="Wrap" Text="Images must be stored in the images folder, otherwise they will not be displayed. You can move the appication in any place, and the images will display(eg. Pendrive, DVD, Other computer)" Margin="10,278,10,71" Grid.ColumnSpan="2"/>
+        <TextBlock Text="Other" Margin="0,328,0,7" Grid.ColumnSpan="2"/>
+        <TextBlock TextWrapping="Wrap" Text="You can browse through cars with left and right keys. You can search with Enter." Margin="10,346,10,7" Grid.ColumnSpan="2"/>
+    </Grid>
+</Controls:MetroWindow>
+
